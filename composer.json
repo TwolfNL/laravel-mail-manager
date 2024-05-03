@@ -1,32 +1,32 @@
 {
-	"name": "binarybuilds/laravel-mail-manager",
-	"description": "A Laravel mail manager to record and re-send all outgoing emails.",
-	"keywords": [
-		"laravel",
-		"mail",
-		"email",
-		"monitoring",
-		"debugging"
-	],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Srinath Reddy Dudi",
-			"email": "srinathreddydudi@gmail.com"
-		}
-	],
-	"require": {
-		"php": ">=8.1",
-		"laravel/framework": "~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0|^10.0"
-	},
-	"autoload": {
-		"psr-4": {
-			"BinaryBuilds\\LaravelMailManager\\": "src/"
-		}
-	},
-	"config": {
-		"sort-packages": true
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+    "name": "binarybuilds/laravel-mail-manager",
+    "description": "A Laravel mail manager to record and re-send all outgoing emails.",
+    "keywords": [
+        "laravel",
+        "mail",
+        "email",
+        "monitoring",
+        "debugging"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Srinath Reddy Dudi",
+            "email": "srinathreddydudi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": "~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BinaryBuilds\\LaravelMailManager\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
